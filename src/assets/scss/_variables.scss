@@ -1,8 +1,41 @@
+// Pallette
+$primary-color: #191825;
+$secondary-color: #865DFF;
+$tertiary-color: #E384FF;
+$quaternary-color: #FFA3FD;
+$link-color: white;
+
+$max-width: 1300px;
+
+
 // Global variables
-$background-color: gray;
+$background-color: $primary-color;
+
 
 // Fonts
 $font-color: white;
+$font-dark-color: black;
+$text-shadow: 2px 2px 2px #9F9F9F;
+$font-size: 1.1rem;
 $font-weight: 400;
 $line-height: 1.5;
 $font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+
+$link-color: $tertiary-color;
+
+
+// Buttons
+$btn-border-radius: 8px;
+$btn-border: 1px solid transparent;
+$btn-padding: 0.6em 1.2em;
+$btn-font-size: 1em;
+$btn-font-weight: 500;
+
+
+// navbar
+$navbar-bg-color: $secondary-color;
+$navbar-height: 62px;
+$navbar-padding: 0.5em 1.2em;
+$navbar-font-size: 1.2em;
+$navbar-box-shadow: 0px 2px 5px 2px #0000005e;
+$navbar-text-shadow: 2px 2px 3px #0000005e;

@@ -1,9 +1,9 @@
 import { RouteRecordRaw, createRouter, createWebHistory } from 'vue-router';
-import HelloWorld from "../components/PortFolio.vue";
+import PortFolio from "../components/PortFolio.vue";
 
 
 const routes: Array<RouteRecordRaw> = [
-  { path: '/', name: 'Home', component: HelloWorld },
+  { path: '/', name: 'Home', component: PortFolio },
 ]
 
 const router = createRouter({
